@@ -1,0 +1,28 @@
+/* Estilos mínimos para orden */
+body {
+  font-family: sans-serif;
+  max-width: 400px;
+  margin: 20px auto;
+  background: #222;
+  color: white;
+}
+
+input, button {
+  margin: 5px 0;
+  padding: 8px;
+  display: block;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+#feedback {
+  color: #0f0;
+  font-weight: bold;
+}
